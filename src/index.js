@@ -1,14 +1,16 @@
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 import SearchBar from './components/search_bar';
+import VideoDetail from './components/video_detail';
 
 
 
 
 const App = ()=>{
     return(
-        <div className="container">
+        <div className="row">
             <SearchBar />
+            <VideoDetail />
         </div>
     );
 };
