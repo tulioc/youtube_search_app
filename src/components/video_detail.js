@@ -2,7 +2,6 @@ import React from 'react';
 
 const VideoDetail = () => {
   return (
-    <div className="row">
       <div className="video-detail col s8">
         <div className="video-container">
           <iframe width="853" height="480"
@@ -16,7 +15,6 @@ const VideoDetail = () => {
           <div className="description"> Video Description</div>
         </div>
       </div>
-    </div>
   );
 }
 

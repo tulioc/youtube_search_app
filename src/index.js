@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 import SearchBar from './components/search_bar';
 import VideoDetail from './components/video_detail';
-
+import VideoList from './components/video_list';
 
 
 
@@ -11,6 +11,7 @@ const App = ()=>{
         <div className="row">
             <SearchBar />
             <VideoDetail />
+            <VideoList />
         </div>
     );
 };
