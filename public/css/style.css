@@ -28,3 +28,11 @@
 .description {
 	font-size: 14px;
 }
+
+.collection-item {
+	cursor: pointer;
+}
+
+.collection-item:hover {
+	background-color: #eee;
+}
