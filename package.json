@@ -20,7 +20,7 @@
   "dependencies": {
     "babel-preset-stage-1": "*",
     "react": "^*",
-    "react-dom": "*"
-
+    "react-dom": "*",
+    "youtube-api-search": "0.0.5"
   }
 }
